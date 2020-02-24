@@ -11,6 +11,7 @@ ENV LC_ALL C.UTF-8
 WORKDIR /app
 
 RUN apk add --no-cache \
+  bash \
   ffmpeg \
   rtmpdump \
   mplayer \
